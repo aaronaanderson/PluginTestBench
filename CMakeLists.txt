@@ -33,6 +33,7 @@ target_compile_definitions(PluginTestBench PRIVATE
     JUCE_WEB_BROWSER=0
     JUCE_APPLICATION_NAME_STRING="$<TARGET_PROPERTY:PluginTestBench,JUCE_PRODUCT_NAME>"
     JUCE_APPLICATION_VERSION_STRING="$<TARGET_PROPERTY:PluginTestBench,JUCE_VERSION>"
+    JUCE_DISPLAY_SPLASH_SCREEN=0
     )
 
 target_link_libraries(PluginTestBench PRIVATE
